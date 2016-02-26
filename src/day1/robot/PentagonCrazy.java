@@ -9,8 +9,8 @@ import org.jointheleague.graphical.robot.Robot;
 public class PentagonCrazy {
 
 	private void makePrettyThings() {
-		// 1. Create a new Robot
-
+	
+		Robot bill=new Robot();
 		// 3. Put the robot's pen down
 
 		// 8. Make the robot go at maximum speed (10)
@@ -24,7 +24,7 @@ public class PentagonCrazy {
 		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
 
 			// 2. Move the robot 200 pixels
-	
+			bill.move(200);
 			// 10. Make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 	
 			// 6. Turn the robot the amount in your angle variable
